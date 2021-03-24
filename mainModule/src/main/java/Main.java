@@ -7,7 +7,12 @@ public class Main {
         array[2] = 3;
         array[3] = 4;
         array[4] = 5;
-        BinarySearch.binarySearchMethod(array, 0, array.length - 1, 1);
+        try {
+            BinarySearch.binarySearchMethod(array, 9, array.length - 1, 1);
+
+        }catch (IllegalArgumentException e){
+            e.printStackTrace();
+        }
 
     }
 }

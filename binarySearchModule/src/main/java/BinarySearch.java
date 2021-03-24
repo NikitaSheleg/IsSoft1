@@ -7,12 +7,13 @@ public class BinarySearch {
 
     public static int binarySearchMethod(int[] array, int start, int end, int target) {
 
-        int middleElementIndex = (end + start) / 2;
-        logger.debug("middle {}", middleElementIndex);
-        secondLogger.debug("middle {}", middleElementIndex);
+
         if (end < start) {
             throw new IllegalArgumentException("end<start");
         }
+        int middleElementIndex = (end + start) / 2;
+        logger.debug("middle {}", middleElementIndex);
+        secondLogger.debug("middle {}", middleElementIndex);
 
         if (target == array[middleElementIndex]) {
             return middleElementIndex;

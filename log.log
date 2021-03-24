@@ -1,0 +1,4 @@
+2021-03-25 00:05:32,264 DEBUG [main] BinarySearch [BinarySearch.java:11] middle 2
+2021-03-25 00:05:32,271 DEBUG [main] logger [BinarySearch.java:12] middle 2
+2021-03-25 00:05:32,272 DEBUG [main] BinarySearch [BinarySearch.java:11] middle 0
+2021-03-25 00:05:32,272 DEBUG [main] logger [BinarySearch.java:12] middle 0

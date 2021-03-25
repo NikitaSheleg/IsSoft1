@@ -7,6 +7,7 @@ public class BinarySearch {
     public static int binarySearchMethod(int[] array, int start, int end, int target) {
 
         if (end < start) {
+            secondLogger.error("end<start");
             throw new IllegalArgumentException("end<start");
         }
         int middleElementIndex = (end + start) / 2;

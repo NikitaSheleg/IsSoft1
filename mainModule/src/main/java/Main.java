@@ -8,7 +8,7 @@ public class Main {
         array[3] = 4;
         array[4] = 5;
         try {
-            BinarySearch.binarySearchMethod(array, 0, array.length - 1, 5);
+            BinarySearch.binarySearchMethod(array, 9, array.length - 1, 5);
 
         }catch (IllegalArgumentException e){
             e.printStackTrace();
